@@ -4,6 +4,11 @@ description: kubernetes-cronhpa-controller is a kubernetes cron horizontal pod a
   any kind object defined in kubernetes which support scale subresource(such as Deployment
   and StatefulSet).
 apiVersion: v2
+
+annotations:
+  addon.kpanda.io/release-name: "kubernetes-cronhpa-controller"
+  addon.kpanda.io/namespace: "kube-system"
+
 appVersion: 0.0.1
 kubeVersion: ">=1.7.0-0"
 keywords:
